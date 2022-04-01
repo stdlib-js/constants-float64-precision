@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/constants-float64-precision",
+  "version": "0.0.0",
+  "description": "Effective number of bits in the significand of a double-precision floating-point number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float64-precision.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "double",
+    "dbl",
+    "floating-point",
+    "float",
+    "ieee754",
+    "precision",
+    "significand"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
