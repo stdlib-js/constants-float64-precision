@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-precision",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Effective number of bits in the significand of a double-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
