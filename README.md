@@ -24,38 +24,30 @@ limitations under the License.
 
 > Effective number of bits in the [significand][significand] of a [double-precision floating-point number][ieee754].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-precision
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT64_PRECISION = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT64_PRECISION = require( 'path/to/vendor/umd/constants-float64-precision/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT64_PRECISION;
-})();
-</script>
+var FLOAT64_PRECISION = require( '@stdlib/constants-float64-precision' );
 ```
 
 #### FLOAT64_PRECISION
@@ -79,21 +71,11 @@ var bool = ( FLOAT64_PRECISION === 53 ); // including implicit bit
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT64_PRECISION = require( '@stdlib/constants-float64-precision' );
 
 console.log( FLOAT64_PRECISION );
 // => 53
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -102,7 +84,57 @@ console.log( FLOAT64_PRECISION );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/precision.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_PRECISION
+
+Macro for the effective number of bits in the [significand][significand] of a [double-precision floating-point number][ieee754].
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -145,7 +177,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -194,9 +226,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float16/precision]: https://github.com/stdlib-js/constants-float16-precision/tree/umd
+[@stdlib/constants/float16/precision]: https://github.com/stdlib-js/constants-float16-precision
 
-[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision/tree/umd
+[@stdlib/constants/float32/precision]: https://github.com/stdlib-js/constants-float32-precision
 
 <!-- </related-links> -->
 
