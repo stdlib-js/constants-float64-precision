@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@esm/index.mjs';
+import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@v0.1.0-esm/index.mjs';
 ```
 
 #### FLOAT64_PRECISION
@@ -72,7 +72,7 @@ var bool = ( FLOAT64_PRECISION === 53 ); // including implicit bit
 <body>
 <script type="module">
 
-import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@esm/index.mjs';
+import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@v0.1.0-esm/index.mjs';
 
 console.log( FLOAT64_PRECISION );
 // => 53
