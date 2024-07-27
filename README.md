@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-precision/tags). For example,
+
+```javascript
 import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@v0.2.2-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( FLOAT64_PRECISION === 53 ); // including implicit bit
 <body>
 <script type="module">
 
-import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@v0.2.2-esm/index.mjs';
+import FLOAT64_PRECISION from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-precision@esm/index.mjs';
 
 console.log( FLOAT64_PRECISION );
 // => 53
